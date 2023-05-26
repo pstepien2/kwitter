@@ -8,5 +8,5 @@ Rails.application.routes.draw do
   get "/logout", :controller => "sessions", :action => "destroy"
 
   # Define the root route
-  get "/", :controller => "users", :action => "new"
+  get "/", :controller => "marketing_pages", :action => "home"
 end
